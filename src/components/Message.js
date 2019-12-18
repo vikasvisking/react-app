@@ -2,6 +2,7 @@ import React from 'react';
 
 class Message extends React.Component{
 
+    // constructor to init state
     constructor(){
         super()
         this.state = {
@@ -9,12 +10,14 @@ class Message extends React.Component{
         }
     }
 
+    // Function to change the state
     ChangeMessage(){
         this.setState({
             message: 'Thanks For Subscribing'
         })
     }
 
+    // render the JSX
     render(){
         return (
             <div>
