@@ -6,7 +6,8 @@ import React from 'react';
 // import ClassClick from './components/ClassClick'
 // import Message from './components/Message';
 // import Counter from './components/Counter';
-import EventBinding from './components/EventBinding'
+// import EventBinding from './components/EventBinding'
+import ParentComponent from './components/ParentComponent'
 import './App.css';
 
 class App extends React.Component {
@@ -15,7 +16,10 @@ class App extends React.Component {
 		    <div className="App">
 
 				{/* Event hyandling */}
-				<EventBinding />
+				{/* <EventBinding /> */}
+
+				{/* Method As Props in parent */}
+				<ParentComponent />
 				{/* <FunctionClick /> */}
 				{/* <ClassClick /> */}
 				{/* <Counter inc='5'/> */}
