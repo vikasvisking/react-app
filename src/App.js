@@ -8,7 +8,8 @@ import React from 'react';
 // import Counter from './components/Counter';
 // import EventBinding from './components/EventBinding'
 // import ParentComponent from './components/ParentComponent'
-import UserComponent from './components/UserComponent'
+// import UserComponent from './components/UserComponent'
+import NameList from './components/NameList'
 import './App.css';
 
 class App extends React.Component {
@@ -23,8 +24,10 @@ class App extends React.Component {
 				{/* <ParentComponent /> */}
 
 				{/* Conditional rendering */}
-				<UserComponent />
+				{/* <UserComponent /> */}
 
+				{/* List Rendering */}
+				<NameList />
 
 				{/* <FunctionClick /> */}
 				{/* <ClassClick /> */}
