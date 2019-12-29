@@ -7,7 +7,8 @@ import React from 'react';
 // import Message from './components/Message';
 // import Counter from './components/Counter';
 // import EventBinding from './components/EventBinding'
-import ParentComponent from './components/ParentComponent'
+// import ParentComponent from './components/ParentComponent'
+import UserComponent from './components/UserComponent'
 import './App.css';
 
 class App extends React.Component {
@@ -19,7 +20,12 @@ class App extends React.Component {
 				{/* <EventBinding /> */}
 
 				{/* Method As Props in parent */}
-				<ParentComponent />
+				{/* <ParentComponent /> */}
+
+				{/* Conditional rendering */}
+				<UserComponent />
+
+
 				{/* <FunctionClick /> */}
 				{/* <ClassClick /> */}
 				{/* <Counter inc='5'/> */}
@@ -31,7 +37,6 @@ class App extends React.Component {
 
 			   {/* Destruction of state  */}
 			   {/* <Welcome name="Vikas" man="Bat">I am vikasasadasda</Welcome>  */}
-
 
 		      {/* <Greet name="Arsh" man="Raju"> I am Arsh </Greet> */}
 		     
